@@ -22,19 +22,23 @@ main {
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  box-shadow: 0 15px 30px rgba(0, 81, 171, 0.1488);
 }
 
 .card-top {
   grid-column: 1 / -1;
   background-color: white;
+  border-radius: 8px 8px 0px 0px;
 }
 
 .card-left {
   grid-column: 1 / 2;
+  border-bottom-left-radius: 8px;
 }
 
 .card-right {
   grid-column: 2 / -1;
+  border-bottom-right-radius: 8px;
 }
 
 /* == LAYOUT == */
@@ -71,6 +75,7 @@ h2 {
 }
 
 /* == BOTTOM == */
+
 .card-left,
 .card-right {
   background-color: #2AB3B1;
@@ -84,4 +89,43 @@ h3 {
   letter-spacing: -0.22px;
   color: #fff;
   margin-bottom: 18px;
+}
+
+/* == LEFT == */
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 11px;
+  font-family: 'Karla';
+  font-weight: bold;
+  font-size: 29px;
+  letter-spacing: -0.4px;
+  color: #fff;
+}
+
+.price span,
+.price-desc {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  color: #fff;
+}
+
+.price span {
+  opacity: 0.5;
+}
+
+.price-desc {
+  margin-bottom: 26px;
+}
+
+.sign-up {
+  width: 237px;
+  height: 48px;
+  background-color: #C0DF33;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.0973);
 }
