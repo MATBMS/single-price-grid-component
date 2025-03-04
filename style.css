@@ -92,6 +92,7 @@ h3 {
 }
 
 /* == LEFT == */
+
 .price {
   display: flex;
   flex-direction: row;
@@ -128,4 +129,24 @@ h3 {
   color: #fff;
   border-radius: 5px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.0973);
+  font-family: 'Karla';
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: -0.20px;
+}
+
+/* == RIGHT == */
+
+.card-right {
+  background-color: rgba(42, 179, 177, 0.8481);
+}
+
+.why-item {
+  font-family: 'Karla';
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.17px;
+  color: #fff;
+  opacity: 0.75;
 }
