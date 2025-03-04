@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/MATBMS/stats-preview-card-component)
-- Live Site URL: [Github Page](https://matbms.github.io/stats-preview-card-component/)
+- Solution URL: [Github Repo](https://github.com/MATBMS/single-price-grid-component)
+- Live Site URL: [Github Page](https://matbms.github.io/single-price-grid-component/)
 
 ## My process
 
