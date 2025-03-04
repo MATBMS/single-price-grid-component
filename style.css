@@ -1,4 +1,12 @@
+/* == TYPOGRAPHY == */
+
+@font-face {
+  font-family: 'Karla';
+  src: url('./fonts/Karla.ttf') format('truetype');
+}
+
 /* == LAYOUT == */
+
 main {
   width: 100vw;
   min-height: 100vh;
@@ -27,4 +35,37 @@ main {
 
 .card-right {
   grid-column: 2 / -1;
+}
+
+/* == LAYOUT == */
+.card-top {
+  padding: 40px;
+}
+
+/* == TOP == */
+
+h1 {
+  font-family: 'Karla';
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: -0.3px;
+  color: #2AB3B1;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-family: 'Karla';
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: -0.22px;
+  color: #C0DF33;
+  margin-bottom: 11px;
+}
+
+.description {
+  font-family: 'Karla';
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  color: #9AA7BE;
 }
