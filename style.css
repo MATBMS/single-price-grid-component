@@ -69,3 +69,19 @@ h2 {
   letter-spacing: -0.2px;
   color: #9AA7BE;
 }
+
+/* == BOTTOM == */
+.card-left,
+.card-right {
+  background-color: #2AB3B1;
+  padding: 40px;
+}
+
+h3 {
+  font-family: 'Karla';
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: -0.22px;
+  color: #fff;
+  margin-bottom: 18px;
+}
