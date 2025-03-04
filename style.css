@@ -1,0 +1,30 @@
+/* == LAYOUT == */
+main {
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  background-color: #E6EFF5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 635px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card-top {
+  grid-column: 1 / -1;
+  background-color: white;
+}
+
+.card-left {
+  grid-column: 1 / 2;
+}
+
+.card-right {
+  grid-column: 2 / -1;
+}
